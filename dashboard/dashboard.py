@@ -16,7 +16,7 @@ order_items_dataset_df = pd.read_csv(
 order_payments_dataset_df = pd.read_csv(
     "dashboard/order_payments_dataset.csv")
 order_reviews_dataset_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/order_reviews_dataset.csv")
+    "dashboard/order_reviews_dataset.csv")
 orders_dataset_df = pd.read_csv(
     "dashboard/orders_dataset.csv")
 product_category_name_translation_df = pd.read_csv(
