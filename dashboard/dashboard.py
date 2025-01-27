@@ -8,23 +8,23 @@ sns.set(style='dark')
 st.header('E-commerce Public Dashboard :sparkles:')
 
 customers_dataset_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/customers_dataset.csv")
+    "dashboard/customers_dataset.csv")
 geolocation_dataset_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/geolocation_dataset.csv")
+    "dashboard/geolocation_dataset.csv")
 order_items_dataset_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/order_items_dataset.csv")
+    "dashboard/order_items_dataset.csv")
 order_payments_dataset_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/order_payments_dataset.csv")
+    "dashboard/order_payments_dataset.csv")
 order_reviews_dataset_df = pd.read_csv(
     "D:/kiki/submission/dashboard/order_reviews_dataset.csv")
 orders_dataset_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/orders_dataset.csv")
+    "dashboard/orders_dataset.csv")
 product_category_name_translation_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/product_category_name_translation.csv")
+    "dashboard/product_category_name_translation.csv")
 products_dataset_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/products_dataset.csv")
+    "dashboard/products_dataset.csv")
 sellers_dataset_df = pd.read_csv(
-    "D:/kiki/submission/dashboard/sellers_dataset.csv")
+    "dashboard/sellers_dataset.csv")
 
 st.subheader("Customer Demographics")
 
